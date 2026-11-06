@@ -83,7 +83,7 @@ public class ChatChaos implements ModInitializer {
     private static void register(CommandDispatcher<CommandSourceStack> d) {
         d.register(Commands.literal("chaos")
                 // доступно владельцу одиночной игры/LAN и консоли сервера
-                .requires(src -> src.getServer().isSingleplayer() || src.getEntity() == null)
+                .requires(src -> src.getServer() == null || src.getServer().isSingleplayer() || src.getEntity() == null)
 
                 .then(Commands.literal("menu").executes(ctx -> {
                     openMenu = true;

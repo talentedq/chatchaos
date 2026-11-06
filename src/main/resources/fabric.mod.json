@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "chatchaos",
+  "version": "${version}",
+  "name": "Chat Chaos",
+  "description": "Чат Twitch голосует, что случится со стримером. Оверлей прямо в игре, 40 эффектов, ники зрителей в мобах.",
+  "authors": [
+    "Streamer"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.chatchaos.ChatChaos"
+    ],
+    "client": [
+      "ru.chatchaos.client.ChatChaosClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

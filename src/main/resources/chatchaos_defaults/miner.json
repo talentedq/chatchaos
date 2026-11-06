@@ -1,0 +1,17 @@
+{
+  "title": "Шахтёрский раж",
+  "category": "GOOD",
+  "group": "",
+  "duration": 45,
+  "weight": 1.0,
+  "enabled": true,
+  "danger": false,
+  "needs": "",
+  "pulseEvery": 0,
+  "start": [
+    "effect give {player} haste 45 3 true",
+    "effect give {player} speed 45 1 true"
+  ],
+  "pulse": [],
+  "end": []
+}

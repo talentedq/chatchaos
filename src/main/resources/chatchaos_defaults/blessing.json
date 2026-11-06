@@ -1,0 +1,18 @@
+{
+  "title": "Благословение чата",
+  "category": "GOOD",
+  "group": "",
+  "duration": 0,
+  "weight": 1.0,
+  "enabled": true,
+  "danger": false,
+  "needs": "",
+  "pulseEvery": 0,
+  "start": [
+    "effect give {player} regeneration 12 1 true",
+    "effect give {player} absorption 40 2 true",
+    "effect give {player} saturation 6 5 true"
+  ],
+  "pulse": [],
+  "end": []
+}

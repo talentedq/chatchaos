@@ -1,0 +1,17 @@
+{
+  "title": "Босс из чата",
+  "category": "BAD",
+  "group": "",
+  "duration": 0,
+  "weight": 0.7,
+  "enabled": true,
+  "danger": true,
+  "needs": "",
+  "pulseEvery": 0,
+  "start": [
+    "!say Босс чата - {nick}! Победи зрителя!",
+    "execute at {player} run summon wither_skeleton {ring} {CustomName:\"БОСС {nick}\",CustomNameVisible:1b,Glowing:1b,Health:80f,attributes:[{id:\"minecraft:max_health\",base:80.0d},{id:\"minecraft:scale\",base:1.8d}]}"
+  ],
+  "pulse": [],
+  "end": []
+}

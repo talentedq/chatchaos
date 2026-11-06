@@ -1,0 +1,18 @@
+{
+  "title": "Ты - крошка",
+  "category": "FUN",
+  "group": "scale",
+  "duration": 30,
+  "weight": 1.0,
+  "enabled": true,
+  "danger": false,
+  "needs": "",
+  "pulseEvery": 0,
+  "start": [
+    "attribute {player} minecraft:scale base set 0.25"
+  ],
+  "pulse": [],
+  "end": [
+    "attribute {player} minecraft:scale base set 1"
+  ]
+}

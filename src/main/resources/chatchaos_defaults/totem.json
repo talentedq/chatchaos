@@ -1,0 +1,17 @@
+{
+  "title": "Тотем от зрителя",
+  "category": "GOOD",
+  "group": "",
+  "duration": 0,
+  "weight": 0.6,
+  "enabled": true,
+  "danger": false,
+  "needs": "",
+  "pulseEvery": 0,
+  "start": [
+    "give {player} minecraft:totem_of_undying 1",
+    "!say {nick} подарил Тотем бессмертия!"
+  ],
+  "pulse": [],
+  "end": []
+}

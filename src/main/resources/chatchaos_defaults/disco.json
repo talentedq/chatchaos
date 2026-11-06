@@ -1,0 +1,20 @@
+{
+  "title": "Дискотека времени",
+  "category": "FUN",
+  "group": "time",
+  "duration": 16,
+  "weight": 1.0,
+  "enabled": true,
+  "danger": false,
+  "needs": "",
+  "pulseEvery": 40,
+  "start": [
+    "effect give {player} glowing 16 0 true"
+  ],
+  "pulse": [
+    "time set {cycle:midnight|noon}"
+  ],
+  "end": [
+    "time set day"
+  ]
+}

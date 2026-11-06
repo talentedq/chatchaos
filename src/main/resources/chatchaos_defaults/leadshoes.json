@@ -1,0 +1,17 @@
+{
+  "title": "Свинцовые ботинки",
+  "category": "BAD",
+  "group": "",
+  "duration": 25,
+  "weight": 1.0,
+  "enabled": true,
+  "danger": false,
+  "needs": "",
+  "pulseEvery": 0,
+  "start": [
+    "effect give {player} slowness 25 3 true",
+    "effect give {player} mining_fatigue 25 2 true"
+  ],
+  "pulse": [],
+  "end": []
+}

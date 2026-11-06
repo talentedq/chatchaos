@@ -1,0 +1,17 @@
+{
+  "title": "Скорость звука",
+  "category": "FUN",
+  "group": "",
+  "duration": 15,
+  "weight": 1.0,
+  "enabled": true,
+  "danger": false,
+  "needs": "",
+  "pulseEvery": 0,
+  "start": [
+    "effect give {player} speed 15 8 true",
+    "effect give {player} jump_boost 15 2 true"
+  ],
+  "pulse": [],
+  "end": []
+}

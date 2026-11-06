@@ -1,0 +1,17 @@
+{
+  "title": "Попрыгунчик",
+  "category": "FUN",
+  "group": "",
+  "duration": 40,
+  "weight": 1.0,
+  "enabled": true,
+  "danger": false,
+  "needs": "",
+  "pulseEvery": 0,
+  "start": [
+    "effect give {player} jump_boost 40 6 true",
+    "effect give {player} slow_falling 40 0 true"
+  ],
+  "pulse": [],
+  "end": []
+}

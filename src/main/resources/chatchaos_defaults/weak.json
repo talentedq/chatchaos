@@ -1,0 +1,17 @@
+{
+  "title": "Слабак",
+  "category": "BAD",
+  "group": "",
+  "duration": 30,
+  "weight": 1.0,
+  "enabled": true,
+  "danger": false,
+  "needs": "",
+  "pulseEvery": 0,
+  "start": [
+    "effect give {player} weakness 30 1 true",
+    "effect give {player} mining_fatigue 30 1 true"
+  ],
+  "pulse": [],
+  "end": []
+}

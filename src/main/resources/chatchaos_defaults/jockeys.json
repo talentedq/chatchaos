@@ -1,0 +1,16 @@
+{
+  "title": "Куриные жокеи",
+  "category": "BAD",
+  "group": "",
+  "duration": 0,
+  "weight": 1.0,
+  "enabled": true,
+  "danger": true,
+  "needs": "",
+  "pulseEvery": 0,
+  "start": [
+    "*3 execute at {player} run summon chicken {ring} {CustomName:\"{viewer}\",CustomNameVisible:1b,Passengers:[{id:\"minecraft:zombie\",IsBaby:1b,CustomName:\"{viewer}\",CustomNameVisible:1b}]}"
+  ],
+  "pulse": [],
+  "end": []
+}

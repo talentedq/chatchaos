@@ -1,0 +1,18 @@
+{
+  "title": "Ракета в небо",
+  "category": "FUN",
+  "group": "",
+  "duration": 0,
+  "weight": 1.0,
+  "enabled": true,
+  "danger": false,
+  "needs": "",
+  "pulseEvery": 0,
+  "start": [
+    "effect give {player} levitation 3 15 true",
+    "effect give {player} slow_falling 25 0 true",
+    "execute at {player} run playsound minecraft:entity.firework_rocket.launch player {player} ~ ~ ~ 1 1"
+  ],
+  "pulse": [],
+  "end": []
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Лотерея с неба",
+  "category": "FUN",
+  "group": "",
+  "duration": 30,
+  "weight": 1.0,
+  "enabled": true,
+  "danger": false,
+  "needs": "",
+  "pulseEvery": 25,
+  "start": [],
+  "pulse": [
+    "*2 execute at {player} run summon item ~{rand:-3:3} ~10 ~{rand:-3:3} {Item:{id:\"minecraft:{pick:diamond|emerald|golden_apple|cooked_beef|coal|coal|rotten_flesh|stick|dirt|gold_ingot}\",count:1}}"
+  ],
+  "end": []
+}

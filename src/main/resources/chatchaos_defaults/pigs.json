@@ -1,0 +1,16 @@
+{
+  "title": "Поросята зрителей",
+  "category": "FUN",
+  "group": "",
+  "duration": 0,
+  "weight": 1.0,
+  "enabled": true,
+  "danger": false,
+  "needs": "",
+  "pulseEvery": 0,
+  "start": [
+    "*5 execute at {player} run summon pig {ring} {CustomName:\"{viewer}\",CustomNameVisible:1b,Age:-24000}"
+  ],
+  "pulse": [],
+  "end": []
+}

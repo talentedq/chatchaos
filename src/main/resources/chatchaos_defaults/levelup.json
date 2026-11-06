@@ -1,0 +1,16 @@
+{
+  "title": "Опыт для героя",
+  "category": "GOOD",
+  "group": "",
+  "duration": 0,
+  "weight": 1.0,
+  "enabled": true,
+  "danger": false,
+  "needs": "",
+  "pulseEvery": 0,
+  "start": [
+    "xp add {player} 8 levels"
+  ],
+  "pulse": [],
+  "end": []
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Случайный телепорт",
+  "category": "FUN",
+  "group": "",
+  "duration": 0,
+  "weight": 1.0,
+  "enabled": true,
+  "danger": false,
+  "needs": "teleport",
+  "pulseEvery": 0,
+  "start": [
+    "execute as {player} at {player} run spreadplayers ~ ~ 1 300 false @s"
+  ],
+  "pulse": [],
+  "end": []
+}

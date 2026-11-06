@@ -1,0 +1,18 @@
+{
+  "title": "Тихий ужас",
+  "category": "BAD",
+  "group": "",
+  "duration": 30,
+  "weight": 1.0,
+  "enabled": true,
+  "danger": false,
+  "needs": "",
+  "pulseEvery": 50,
+  "start": [
+    "effect give {player} darkness 12 0 true"
+  ],
+  "pulse": [
+    "execute at {player} run playsound minecraft:{pick:entity.creeper.primed|entity.zombie.ambient|entity.skeleton.ambient|ambient.cave|entity.enderman.stare|entity.spider.ambient} hostile {player} ~{rand:-3:3} ~ ~{rand:-3:3} 1 {pitch}"
+  ],
+  "end": []
+}

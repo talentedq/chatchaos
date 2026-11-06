@@ -1,0 +1,16 @@
+{
+  "title": "Снайперы чата",
+  "category": "BAD",
+  "group": "",
+  "duration": 0,
+  "weight": 1.0,
+  "enabled": true,
+  "danger": true,
+  "needs": "",
+  "pulseEvery": 0,
+  "start": [
+    "*4 execute at {player} run summon skeleton {ring} {CustomName:\"{viewer}\",CustomNameVisible:1b,PersistenceRequired:1b}"
+  ],
+  "pulse": [],
+  "end": []
+}

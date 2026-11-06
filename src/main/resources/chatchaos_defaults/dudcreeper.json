@@ -1,0 +1,16 @@
+{
+  "title": "Гигантский крипер-пустышка",
+  "category": "FUN",
+  "group": "",
+  "duration": 0,
+  "weight": 1.0,
+  "enabled": true,
+  "danger": false,
+  "needs": "",
+  "pulseEvery": 0,
+  "start": [
+    "execute at {player} run summon creeper {ring} {CustomName:\"Гигант {nick}\",CustomNameVisible:1b,ExplosionRadius:1b,attributes:[{id:\"minecraft:scale\",base:5.0d}]}"
+  ],
+  "pulse": [],
+  "end": []
+}

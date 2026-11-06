@@ -100,7 +100,7 @@ public class ChaosSettingsScreen extends Screen {
 
         y += step + 8;
         addRenderableWidget(Button.builder(Component.literal("Эффекты..."),
-                bt -> this.minecraft.setScreen(new ChaosEffectsScreen(this))).bounds(lx, y, w, 20).build());
+                bt -> this.minecraft.gui.setScreen(new ChaosEffectsScreen(this))).bounds(lx, y, w, 20).build());
         addRenderableWidget(Button.builder(Component.literal("Готово"),
                 bt -> onClose()).bounds(rx, y, w, 20).build());
     }
@@ -116,6 +116,6 @@ public class ChaosSettingsScreen extends Screen {
 
     @Override
     public void onClose() {
-        this.minecraft.setScreen(parent);
+        this.minecraft.gui.setScreen(parent);
     }
 }

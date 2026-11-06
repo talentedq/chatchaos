@@ -18,7 +18,7 @@ public class ChatChaosClient implements ClientModInitializer {
         ClientTickEvents.END_CLIENT_TICK.register(mc -> {
             if (ChatChaos.openMenu) {
                 ChatChaos.openMenu = false;
-                mc.setScreen(new ChaosSettingsScreen(null));
+                mc.gui.setScreen(new ChaosSettingsScreen(null));
             }
         });
     }
